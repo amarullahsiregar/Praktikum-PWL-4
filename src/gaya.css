@@ -1,0 +1,29 @@
+.card2 {
+  height: auto;
+  width: 45vw;
+  display: flex;
+  position: relative;
+  color: white;
+  margin: 0 1rem 1rem;
+  border: solid 0 #bdbdbd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+.konten {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin-bottom: 25vh;
+}
+.deskripsi2 {
+  font-size: small;
+}
+
+.gambar2 {
+  width: 30vw;
+  object-fit: contain;
+}

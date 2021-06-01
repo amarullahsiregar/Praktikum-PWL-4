@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  display: block;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.judul {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.Headline {
+  position: relative;
+  margin: 5%;
+  width: auto;
+  height: 70vh;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.1);
+}
+.gambar {
+  width: inherit auto;
+  object-fit: contain;
+}
+.detail {
+  background-color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #3a7e02;
+  position: relative;
+  padding: 5% 40px 2% 40px;
+}
+.harga {
+  color: #0d1d00;
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+.btn {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+}
