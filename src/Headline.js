@@ -6,6 +6,7 @@ class Headline extends Component{
         return(
             
             <body className="App" >
+                <h1>Warung Sayurku</h1>
                 <div class="Headline">
                     <img class="gambar" src={produk.image}></img>
                     <div class="detail">
